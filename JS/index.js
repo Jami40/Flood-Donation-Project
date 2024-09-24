@@ -38,17 +38,6 @@ donateBtn.addEventListener('click',function(){
 
 })
 
-
-
-
-
-
-
-
-
-
-
-
 const ownmoney=document.getElementById('my-money').innerText;
 
 const floattownMoney=parseFloat(ownmoney);
@@ -82,8 +71,8 @@ document.getElementById('btn-1').addEventListener('click',function(event){
         const leftMoney=moneyfloatt-inputFielll;
 
         document.getElementById('my-money').innerText=leftMoney;
-        
-
+         const noakhhallliTitile=document.getElementById('noakhali-title').innerText
+         history(inputFielll,noakhhallliTitile)
 
     }
 
@@ -120,7 +109,8 @@ document.getElementById('btn-2').addEventListener('click',function(event){
 
         document.getElementById('my-money').innerText=leftMoney;
         
-
+        const feniTitile=document.getElementById('feni-title').innerText
+        history(inputFielll,feniTitile)
 
     }
 
@@ -155,6 +145,8 @@ document.getElementById('btn-3').addEventListener('click',function(event){
 
         document.getElementById('my-money').innerText=leftMoney;
         
+        const quataTitile=document.getElementById('quata-title').innerText
+        history(inputFielll,quataTitile)
 
 
     }
